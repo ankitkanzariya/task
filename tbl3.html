@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tbl3</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+      border: 2px solid black;
+    }
+
+    .secondTable {
+      border-color: rgb(74, 8, 255);
+    }
+
+    th,
+    td {
+      padding: 10px;
+    }
+  </style>
+<body>
+    <h2 align="center">example: nested</h2>
+    <table align="center" >
+        <tr>
+            <th rowspan="2" colspan="2">ci</th>
+            <th rowspan="2">all genders</th>
+            <th colspan="3">by gender</th>
+        </tr>
+
+        <tr>
+            <td>
+                <table class="secondTable">
+                  <tr>
+                    <th class="secondTable">males</th>
+                    <th class="secondTable">females</td>
+                  </tr>
+                  <tr class="firstTable">
+                    <td class="secondTable">9215604</td>
+      
+                    <td class="secondTable">4512358</td>
+                  </tr>
+                </table>
+              </td>
+        </tr>
+
+      
+
+        <tr>
+            <th>rural</th>
+            <td>6589215</td>
+            <td>4215891</td>
+            <td>8956324</td>
+        </tr>
+    </table>
+</body>
+</html>
